@@ -1,0 +1,128 @@
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Nav1 ul {
+    list-style: none;
+}
+
+#Nav1 ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#Nav1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style the links when hovered */
+nav a:hover {
+    color: #ff6347; /* Change the color to your preference */
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    animation: moveImage 5s linear infinite;
+}
+
+/* Define the CSS animation */
+@keyframes moveImage {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px);
+       
+    }
+    100% {
+        transform: translateX(0);
+
+    }
+}
+.side-index {
+
+    padding: 10px;
+    width: 150px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.side-index h2 {
+    font-size: 18px;
+}
+
+.side-index ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.side-index li {
+    margin: 5px 0;
+}
+
+
+.side-index a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-item {
+    text-align: center;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 300px; 
+    height: auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
