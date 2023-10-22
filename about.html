@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food Website</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            align-items: center;
+            padding: 1px;
+            text-align: center;
+        }
+        .container a {
+            text-decoration: none;
+            color: rgb(243, 235, 235);
+            padding: 1px 120px;
+            border-radius: 5px ;
+            background-color: rgb(155, 22, 22);
+           
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('hero-image.jpg') center/cover no-repeat;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .cta-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        /* Product Listings */
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product-card {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .social-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .restaurant-image {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div style="text-align: center;">
+         <img src="Screenshot (29).png" alt="Centered Image" style="display: inline-block;">
+        </div>
+        <div class="container">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="menu.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 style="text-align: center;">About Mexicano Treats</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Restaurant Image -->
+        <div class="restaurant-image">
+            <img src="first-burger-king.jpg" style="height: 250;width:300 ;border: #333;padding: 10px;"  alt="Mexicano Treats Restaurant">
+        </div>
+
+        <!-- About Us Text -->
+        <div class="about-us-text" style="background-image:url(hamburger-gettyimages-534998976.jpg);padding: 300px;">
+            <h2 style="text-align: center;font-size: 40px;color: aquamarine;">Our Story</h2>
+            <p style="font-size: 30px;color: #ff6600;">"Welcome to Mexicano Treats, your ultimate destination for delicious and flavorful Mexican-inspired burgers. Our journey began with a passion for both Mexican cuisine and classic burgers, leading to the creation of a unique fusion that truly tantalizes your taste buds."</p>
+            <p style="color: #838383 ">At Mexicano Treats, we are committed to serving you the finest, mouthwatering burgers infused with the vibrant flavors of Mexico. Our dedicated team of chefs sources the freshest ingredients and crafts each burger with love and creativity, ensuring every bite is an unforgettable experience.</p>
+            <p style="color: #838383;">Whether you're a burger enthusiast or seeking a delightful twist on classic American fare, Mexicano Treats is here to delight your senses and provide you with an unforgettable dining experience. We invite you to savor our delicious creations and embark on a flavor-packed journey with us.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Mexicano Treats</p>
+    </footer>
+</body>
+</html>
